@@ -1,0 +1,45 @@
+body {
+    background-color: #f4f7fb;
+    font-family: 'Lato', 'Segoe UI', sans-serif;
+    color: #2c3e50;
+}
+
+.header-banner {
+    background: linear-gradient(90deg, #0052cc, #00aaff);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.header-banner h1 {
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+.header-banner p {
+    color: #e8f2ff;
+    font-size: 1.1rem;
+}
+
+.card {
+    border-radius: 14px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    background: #ffffff;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+}
+
+.footer {
+    background-color: #ffffff;
+    border-top: 2px solid #e0e0e0;
+    color: #6c757d;
+    text-align: center;
+    padding: 25px 10px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
